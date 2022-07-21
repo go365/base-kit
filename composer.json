@@ -1,6 +1,6 @@
 {
   "name": "go365/base-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "獨立工具包",
   "type": "library",
   "authors": [

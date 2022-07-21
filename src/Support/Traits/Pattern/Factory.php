@@ -46,7 +46,7 @@ trait Factory
                             if (function_exists('app')) {
                                 $instance = app($concrete, $parameters);
                             } else {
-                                $instance = $reflector->newInstance($parameters);
+                                $instance = $reflector->newInstance(...$parameters);
                             }
                         }
                     }
